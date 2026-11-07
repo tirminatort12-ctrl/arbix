@@ -1,0 +1,135 @@
+{
+  "project_name": "Arbotag - Cyfrowy Paszport Drzewa",
+  "app_type": "hybrid_fullstack",
+  "language": "pl",
+  "theme_preference": "light_nature_earthy",
+  "design_archetype": "Organic & Earthy (Trust, Growth, Calm + Municipal Tactile)",
+  "typography": {
+    "heading_font": "Cabinet Grotesk / Outfit / Plus Jakarta Sans",
+    "body_font": "DM Sans / Inter",
+    "mono_font": "JetBrains Mono / Fira Code",
+    "scale": {
+      "hero_h1": "text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight",
+      "section_h2": "text-2xl sm:text-3xl font-bold tracking-tight",
+      "card_h3": "text-lg sm:text-xl font-semibold",
+      "body": "text-base leading-relaxed text-slate-700",
+      "small_label": "text-xs font-semibold uppercase tracking-wider text-slate-500"
+    },
+    "guidelines": [
+      "DO NOT use Inter for main headings. Reserve Inter/DM Sans for crisp body text and form controls.",
+      "Use Polish diacritics support for all font imports (Ł, ą, ę, ś, ć, ż, ź, ó, ń).",
+      "Headings must evoke eco-trust: rounded yet precise letterforms with tight tracking."
+    ]
+  },
+  "colors": {
+    "palette": {
+      "primary": "#2D6A4F",
+      "primary_hover": "#1B4332",
+      "primary_light": "#D8F3DC",
+      "secondary": "#74C69D",
+      "accent_terracotta": "#D97706",
+      "accent_earth": "#8B5CF6",
+      "background_main": "#F8FAF6",
+      "surface_card": "#FFFFFF",
+      "surface_muted": "#F0F4EF",
+      "text_dark": "#1E293B",
+      "text_muted": "#64748B",
+      "border_subtle": "#E2E8F0",
+      "border_nature": "#B7E4C7"
+    },
+    "tree_status_badges": {
+      "zdrowe": { "bg": "bg-emerald-100", "text": "text-emerald-800", "border": "border-emerald-300", "label": "Zdrowe (Healthy)" },
+      "wymaga_pielegnacji": { "bg": "bg-amber-100", "text": "text-amber-800", "border": "border-amber-300", "label": "Wymaga pielęgnacji (Care Needed)" },
+      "zagrozenie": { "bg": "bg-rose-100", "text": "text-rose-800", "border": "border-rose-300", "label": "Zagrożenie / Zagrożone (Danger)" },
+      "usunięte": { "bg": "bg-slate-100", "text": "text-slate-700", "border": "border-slate-300", "label": "Usunięte (Removed)" }
+    },
+    "report_status_badges": {
+      "nowe": { "bg": "bg-blue-100", "text": "text-blue-800", "badge": "Nowe" },
+      "w_trakcie": { "bg": "bg-amber-100", "text": "text-amber-800", "badge": "W trakcie" },
+      "zrealizowane": { "bg": "bg-emerald-100", "text": "text-emerald-800", "badge": "Zrealizowane" },
+      "odrzucone": { "bg": "bg-red-100", "text": "text-red-800", "badge": "Odrzucone" }
+    },
+    "subscription_badges": {
+      "mala": { "bg": "bg-slate-100", "text": "text-slate-800", "label": "Pakiet Mały (do 500 drzew)" },
+      "srednia": { "bg": "bg-emerald-100", "text": "text-emerald-900", "label": "Pakiet Średni (do 2500 drzew)" },
+      "duza": { "bg": "bg-teal-100", "text": "text-teal-900", "label": "Pakiet Duży (Bez limitu)" }
+    },
+    "forbidden_colors": [
+      "#7351B7",
+      "#1B93A4"
+    ]
+  },
+  "spacing_and_layout": {
+    "philosophy": "Mobile-First PWA UX with generous touch targets (min 48px height) and large intuitive buttons.",
+    "container_padding": "px-4 sm:px-6 lg:px-8 py-6",
+    "card_padding": "p-5 sm:p-6",
+    "bento_grid": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6",
+    "header_nav": "Sticky header with backdrop-blur-md bg-white/90 border-b border-emerald-100 z-50 h-16 px-4"
+  },
+  "motion": {
+    "library": "framer-motion",
+    "guidelines": [
+      "Use smooth staggered fade-in lists for tree passports, work history timeline, and resident reports.",
+      "Provide micro-animations on QR code scanning toggles and image comparison sliders (before/after).",
+      "Respect prefers-reduced-motion for all transitions."
+    ]
+  },
+  "image_urls": {
+    "hero_and_nature": [
+      {
+        "url": "https://images.pexels.com/photos/30682725/pexels-photo-30682725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "category": "hero_park",
+        "description": "Towering oak tree with spring foliage in Łódź municipal park"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1695202433679-cbf51ce4fdd8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHwzfHxsdXNoJTIwZ3JlZW4lMjB0cmVlJTIwcGFyayUyMHBvbGFuZCUyMGZvcmVzdCUyMG5hdHVyZSUyMG9hayUyMHRyZWV8ZW58MHx8fHwxNzkyNjkwNzUzfDA&ixlib=rb-4.1.0&q=85",
+        "category": "park_bench",
+        "description": "City park in Poland with mature trees and wooden bench"
+      }
+    ],
+    "worker_and_arborist": [
+      {
+        "url": "https://images.unsplash.com/photo-1754321902809-5c21cbc67228?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzV8MHwxfHNlYXJjaHwzfHxhcmJvcmlzdCUyMHRyZWUlMjBjYXJlJTIwd29ya2VyJTIwcHJ1bmluZyUyMHRyaW1taW5nJTIwdHJlZXxlbnwwfHx8fDE3OTI2OTA3NjF8MA&ixlib=rb-4.1.0&q=85",
+        "category": "tree_pruning",
+        "description": "Arborist performing tree care and branch pruning"
+      },
+      {
+        "url": "https://images.pexels.com/photos/18355077/pexels-photo-18355077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "category": "arborist_safety",
+        "description": "Municipal worker/arborist checking tree canopy"
+      }
+    ]
+  },
+  "component_guidelines": {
+    "testing_attribute": "data-testid",
+    "required_data_testids": [
+      "login-pesel-input",
+      "login-password-input",
+      "login-submit-button",
+      "register-wizard-next-step",
+      "register-wizard-submit-button",
+      "tree-public-passport-view",
+      "report-problem-form",
+      "report-photo-upload-input",
+      "worker-tree-service-card",
+      "worker-history-timeline",
+      "gmina-admin-trees-table",
+      "gmina-admin-csv-upload-button",
+      "qr-download-pair-button",
+      "owner-gmina-toggle-switch",
+      "subscription-stripe-pay-button"
+    ],
+    "accessibility_rules": [
+      "All interactive buttons and links must have touch target area of at least 44px by 44px.",
+      "Form inputs must have visible, high-contrast labels and error messages in Polish.",
+      "Color badges must combine text labels with contrasting background colors so colorblind users can identify status."
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Build a cohesive, multi-tenant UI for Arbotag in Polish with 4 main roles/flows: 1) Public Resident, 2) Resident Portal (PESEL auth), 3) Worker Portal (Tree service card, work log, before/after photos), 4) Gmina Admin & Platform Owner Dashboards.",
+    "Follow the Organic & Earthy palette with lush greens (#2D6A4F), soft pale backgrounds (#F8FAF6), terracotta accents (#D97706), and high-contrast dark text (#1E293B).",
+    "Ensure all buttons are large, rounded, and easily clickable on mobile screens (PWA experience).",
+    "Attach unique `data-testid` attributes to every primary form input, table, switch, and CTA button.",
+    "Do NOT use transparent backgrounds on headers, dropdowns, or modal dialogs."
+  ]
+}
